@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+    background-color: #D0E7D2 !important;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-title, .container{
+    color: #334535;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.login-form{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-color: #B0D9B1;
+    border-radius: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="number"] {
+    background: #95bb95;
+    color: #334535;
+    border: 2px solid #334535;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus, 
+input[type="password"]:focus,
+input[type="number"]:focus{
+    outline: none;
+    border: none;
+    background: #D0E7D2;
+    color:#334535 ;
+    margin: 0;
+}
